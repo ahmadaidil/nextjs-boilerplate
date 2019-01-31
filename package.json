@@ -1,0 +1,18 @@
+{
+  "name": "nextjs-boilerplate",
+  "version": "1.0.0",
+  "description": "my preference for nextjs boilerplate",
+  "repository": "https://github.com/ahmadaidil/nextjs-boilerplate.git",
+  "author": "Ahmad Aidil <aidil@volantis.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
