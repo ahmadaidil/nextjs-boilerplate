@@ -2,7 +2,11 @@ import { createStore, applyMiddleware, combineReducers } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
 
-const reducers = combineReducers({})
+import counter from './counter/counter.reducer'
+
+const reducers = combineReducers({
+  counter
+})
 
 const middlewares = [thunk]
 let enhancer = applyMiddleware(...middlewares)
