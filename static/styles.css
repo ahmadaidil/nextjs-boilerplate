@@ -1,0 +1,10 @@
+/*
+** this is static css
+** Use this for styling html tag like:
+** html, body, footer & etc.
+*/
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
